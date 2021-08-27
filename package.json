@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./index.js localhost 5000",
+    "start": "node index.js",
+    "watch": "nodemon ./index.js localhost 5000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
