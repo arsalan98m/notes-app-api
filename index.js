@@ -1,6 +1,6 @@
 const express = require('express'); // importing express
 const app = express(); // create and express application
-const port = 5000; // define a port
+const port = process.env.PORT || 5000; // define a port
 const cors = require('cors');
 const { notesRouter } = require('./api/v1');
 const config = require('dotenv').config();
