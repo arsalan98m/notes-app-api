@@ -1,0 +1,23 @@
+A better way to use a router is to use express router and seperate files
+// something like this
+
+// users
+// app.get ("/users", usersRoutesFile)
+
+// notes
+// app.get("/notes", notesRoutesFile)
+
+
+// model name should be singular name
+// schema tells what is the object type yeh aisy hi hai jaisy hum ny notes ka interface banaya tha
+
+two steps to crate a model
+1. create the schema
+2. create the model using the schema
+
+
+/notes Requests
+Get elements => GET 
+Get elements by id => GET /:id/
+Add elements => POST 
+Delete elements => DELETE /:id/
